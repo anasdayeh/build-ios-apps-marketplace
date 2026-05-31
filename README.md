@@ -1,14 +1,29 @@
-# Build iOS Apps Marketplace
+# Build iOS Apps Marketplace for Claude Code
 
-A public Claude Code marketplace repository for `build-ios-apps`, a plugin for iOS development with SwiftUI, App Intents, Simulator workflows, performance investigation, and leak debugging.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/anasdayeh/build-ios-apps-marketplace?style=social)](https://github.com/anasdayeh/build-ios-apps-marketplace)
+
+A public Claude Code marketplace repository for `build-ios-apps`, a plugin for iOS development with SwiftUI, App Intents, simulator debugging, performance profiling, leak analysis, and XcodeBuildMCP workflows.
 
 This repository packages a Claude-optimized port of the OpenAI Build iOS Apps plugin. It preserves the core iOS skills and MCP behavior, then adds Claude-native commands and agents for smoother day-to-day use in Claude Code.
 
+## Why use this plugin
+
+Use `build-ios-apps` when you want Claude Code to help with:
+
+- SwiftUI UI design and refactoring
+- App Intents and App Shortcuts design
+- iOS Simulator build, launch, and UI inspection
+- runtime performance triage
+- ETTrace profiling for focused simulator flows
+- memgraph-based leak investigation
+- XcodeBuildMCP-backed iOS workflows inside Claude Code
+
 ## What this repository includes
 
-- A Claude marketplace manifest at `.claude-plugin/marketplace.json`
-- One installable plugin at `plugins/build-ios-apps`
-- The preserved core iOS skillset
+- a Claude marketplace manifest at `.claude-plugin/marketplace.json`
+- one installable plugin at `plugins/build-ios-apps`
+- the preserved core iOS skillset
 - Claude-native commands for common entry points
 - Claude-native agents for orchestration and triage
 
@@ -55,7 +70,7 @@ The preserved MCP configuration is:
 
 ## Install from GitHub
 
-After this repository is published to GitHub, add it as a Claude marketplace and install the plugin:
+After this repository is public, add it as a Claude marketplace and install the plugin:
 
 ```bash
 claude plugin marketplace add https://github.com/anasdayeh/build-ios-apps-marketplace
@@ -95,13 +110,13 @@ build-ios-apps-marketplace/
 
 ## Development notes
 
-- Validate the marketplace:
+Validate the marketplace:
 
 ```bash
 claude plugin validate .
 ```
 
-- Validate the packaged plugin:
+Validate the packaged plugin:
 
 ```bash
 claude plugin validate plugins/build-ios-apps

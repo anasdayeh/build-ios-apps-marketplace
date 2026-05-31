@@ -1,5 +1,13 @@
 # Marketplace Changelog
 
+## 0.1.2 - 2026-05-31
+
+- Reworked the root README title and introduction for public GitHub discovery, adding clearer Claude Code, iOS, SwiftUI, App Intents, simulator, profiling, and XcodeBuildMCP language.
+- Added simple GitHub badges for license and repository stars.
+- Tightened the public-facing explanation of who the plugin is for and what workflows it covers.
+
+Reason: improve click-through, search relevance, and first-impression clarity for a public GitHub release.
+
 ## 0.1.1 - 2026-05-31
 
 - Rewrote the root README for public GitHub sharing with GitHub-based install instructions, clearer structure, and a concise description of preserved versus additive behavior.
