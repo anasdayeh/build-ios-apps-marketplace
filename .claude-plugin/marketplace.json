@@ -1,0 +1,35 @@
+{
+  "name": "build-ios-apps-marketplace",
+  "owner": {
+    "name": "Anas Dayeh",
+    "url": "https://github.com/anasdayeh"
+  },
+  "metadata": {
+    "description": "Marketplace packaging for a Claude-optimized Build iOS Apps plugin with preserved core iOS workflows and additive Claude commands/agents.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "build-ios-apps",
+      "source": "./plugins/build-ios-apps",
+      "description": "Preserved OpenAI Build iOS Apps skillset for Claude Code, plus Claude-native commands and agents for iOS workflows.",
+      "version": "0.2.0",
+      "author": {
+        "name": "OpenAI and Anas Dayeh",
+        "url": "https://openai.com/"
+      },
+      "homepage": "https://github.com/anasdayeh/build-ios-apps-marketplace",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "ios",
+        "swiftui",
+        "xcode",
+        "simulator",
+        "app-intents",
+        "performance",
+        "claude-code"
+      ]
+    }
+  ]
+}

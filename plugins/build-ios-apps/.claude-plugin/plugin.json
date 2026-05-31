@@ -1,0 +1,29 @@
+{
+  "name": "build-ios-apps",
+  "version": "0.2.0",
+  "description": "Build iOS apps with preserved OpenAI Build iOS Apps skills plus Claude-native commands and agents for simulator debugging, SwiftUI refactors, performance triage, and App Intents workflows.",
+  "author": {
+    "name": "OpenAI",
+    "email": "support@openai.com",
+    "url": "https://openai.com/"
+  },
+  "homepage": "https://github.com/anasdayeh/build-ios-apps-marketplace",
+  "repository": "https://github.com/anasdayeh/build-ios-apps-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "ios",
+    "swift",
+    "swiftui",
+    "app-intents",
+    "shortcuts",
+    "siri",
+    "spotlight",
+    "xcode",
+    "performance",
+    "debugging",
+    "claude-code",
+    "marketplace",
+    "ios-debugging"
+  ],
+  "mcpServers": "./.mcp.json"
+}

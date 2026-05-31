@@ -1,0 +1,19 @@
+# Marketplace Changelog
+
+## 0.1.1 - 2026-05-31
+
+- Rewrote the root README for public GitHub sharing with GitHub-based install instructions, clearer structure, and a concise description of preserved versus additive behavior.
+- Rewrote the packaged plugin README to focus on public users inspecting the plugin in the marketplace repository.
+- Added a root MIT `LICENSE` file to match the repository's public sharing intent.
+- Added `docs/plans/2026-05-31-github-publish-design.md` to record the publish-preparation design and scope.
+
+Reason: prepare the repository for a clean public GitHub release under `anasdayeh/build-ios-apps-marketplace` while keeping the core plugin behavior unchanged.
+
+## 0.1.0 - 2026-05-31
+
+- Created the first marketplace packaging for `build-ios-apps`.
+- Added a root marketplace manifest and packaged plugin source under `plugins/build-ios-apps`.
+- Preserved the underlying iOS skills and MCP wiring from the Claude-compatible port.
+- Added Claude-native commands and agents as additive layers only.
+
+Reason: make the plugin installable and shareable through Claude's marketplace mechanism without altering the preserved core iOS workflows.
