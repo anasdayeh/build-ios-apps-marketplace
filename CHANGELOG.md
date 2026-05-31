@@ -1,5 +1,12 @@
 # Marketplace Changelog
 
+## 0.1.3 - 2026-05-31
+
+- Published the repository publicly at `https://github.com/anasdayeh/build-ios-apps-marketplace`.
+- Configured the public repository description, enabled Discussions and Issues, disabled the wiki, and added discovery topics for Claude Code, iOS, SwiftUI, App Intents, XcodeBuildMCP, MCP, simulator debugging, performance profiling, Swift, and developer tools.
+
+Reason: complete the first public GitHub release and improve discoverability inside GitHub and external search surfaces.
+
 ## 0.1.2 - 2026-05-31
 
 - Reworked the root README title and introduction for public GitHub discovery, adding clearer Claude Code, iOS, SwiftUI, App Intents, simulator, profiling, and XcodeBuildMCP language.
